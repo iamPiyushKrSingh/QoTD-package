@@ -11,4 +11,4 @@ And now just paste this command in the preamble
 \usepackage{qotd}
 ```
 and after this pasting your file manager on left side should look like this
-![preamble](https://photos.app.goo.gl/2MaiX7K89BkhaC8y9)
+![preamble](https://i.ibb.co/Z6dnFWY/Screenshot-2022-02-16-02-45-44-13-40deb401b9ffe8e1df2f1cc5ba480b12.jpg)
