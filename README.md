@@ -1,7 +1,7 @@
 # QoTD-package
 This is a latex package help you creating a good looking QoTD's. For your educational discussion in LaTeX.
 
-[Installation](README.md/Installation)
+[Installation](README.md#Installation)
 
 ## Installation
 The installation is so easy, it is just like copy and pasting a file from one drive to another. 
