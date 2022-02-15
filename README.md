@@ -28,7 +28,26 @@ and after this pasting your file manager on left side should look like this
    \everymath{\displaystyle}
    ```
    which renders all the inline mathematical expression as like in `maths-mode`.
-3. 
+3. Having all the important packages for image formatting like `graphicx`, `float`, `wrapfig`, and `adjustbox`.
+4. Having all the important packages for table formatting like `array`, `tabularx`, `multirow`, `longtable`.
+5. Making the page `top margin = 5mm` and `bottom margin = 1mm` and width be unchanged from **standard a4paper**.
+6. Having `tikz` package pre-installed.
+7. And having alot of customised commands for fast typesetting of maths and physics:
+   ```tex
+   \newcommand{\cbrt}[1]{\sqrt[3]{#1}}
+   \newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+   \newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}
+   \newcommand{\inv}{^{-1}}
+   \newcommand{\sq}{^2}
+   \newcommand{\dg}{^{\circ}}
+   \newcommand{\naut}{_{\circ}}
+   ```
+   and some short commands for easy `maths-fonts`
+   ```tex
+   \newcommand{\mbb}[1]{\mathbb{#1}}
+   \newcommand{\mfk}[1]{\mathfrak{#1}}
+   ```
+8.
 
 ## Basic Uses
 In this section you will get to know all the features available to use right out of the box.
