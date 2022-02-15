@@ -47,7 +47,11 @@ and after this pasting your file manager on left side should look like this
    \newcommand{\mbb}[1]{\mathbb{#1}}
    \newcommand{\mfk}[1]{\mathfrak{#1}}
    ```
-8.
+8. By using following packages and options you are given with 2 tcolorboxes.
+   * First box is given a name `qotdphybox`
+     ```tex 
+     \newtcolorbox{qotdphybox}[2][]{enhanced,skin=enhancedlast jigsaw, attach boxed title to top left={xshift=-4mm,yshift=-0.5mm}, fonttitle=\large\bfseries\sffamily,varwidth boxed title=0.7\linewidth, colbacktitle=blue!45!white,colframe=red!50!black, interior style={top color=blue!10!white,bottom color=red!10!white}, boxed title style={empty,arc=0pt,outer arc=0pt,boxrule=0pt}, underlay boxed title={\fill[blue!45!white] (title.north west) -- (title.north east) -- +(\tcboxedtitleheight-1mm,-\tcboxedtitleheight+1mm) -- ([xshift=4mm,yshift=0.5mm]frame.north east) -- +(0mm,-1mm) -- (title.south west) -- cycle; \fill[blue!45!white!50!black] ([yshift=-0.5mm]frame.north west) -- +(-0.4,0) -- +(0,-0.3) -- cycle; \fill[blue!45!white!50!black] ([yshift=-0.5mm]frame.north east) -- +(0,-0.3) -- +(0.4,0) -- cycle; }, title={#2},#1}
+     ```
 
 ## Basic Uses
 In this section you will get to know all the features available to use right out of the box.
