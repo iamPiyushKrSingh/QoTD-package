@@ -2,7 +2,7 @@
 This is a latex package help you creating a good looking QoTD's. For your educational discussion in LaTeX.
 
 * [Installation](README.md#Installation)
-  * [Overleaf](README.md####on-overleaf)
+  * [Overleaf](README.md#on-overleaf)
 * [Basic Uses](README.md#basic-uses)
 
 ## Installation
