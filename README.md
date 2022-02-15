@@ -2,8 +2,8 @@
 This is a latex package help you creating a good looking QoTD's. For your educational discussion in LaTeX.
 
 * [Installation](README.md#Installation)
-  * [Overleaf](README.md####On_Overleaf)
-* [Basic Uses](README.md#Basic_Uses)
+  * [Overleaf](README.md####on-overleaf)
+* [Basic Uses](README.md#basic-uses)
 
 ## Installation
 The installation is so easy, it is just like copy and pasting a file from one drive to another. 
