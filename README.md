@@ -3,6 +3,7 @@ This is a latex package help you creating a good looking QoTD's. For your educat
 
 * [Installation](README.md#Installation)
   * [Overleaf](README.md#on-overleaf)
+* [Features](README.md#features-it-includes)
 * [Basic Uses](README.md#basic-uses)
 
 ## Installation
@@ -19,6 +20,15 @@ and after this pasting your file manager on left side should look like this
 
 > _An important **NOTE** this package requires `logo.jpg` file to work properly so ensure that you have that too in the file manager._
 ![logo.jpg](https://i.ibb.co/wcRNVRR/logo.jpg)
+
+## Features it includes
+1. It has got all the basic packages which is required for **mathematics** and **physics**. Like `amsmath`, `amssymb`, `amsthm`, `physics` and `mathtools`.
+2. It has a special condition
+   ```tex
+   \everymath{\displaystyle}
+   ```
+   which renders all the inline mathematical expression as like in `maths-mode`.
+3. 
 
 ## Basic Uses
 In this section you will get to know all the features available to use right out of the box.
