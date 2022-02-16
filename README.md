@@ -6,6 +6,7 @@ This is a latex package help you creating a good looking QoTD's. For your educat
 * [Features](README.md#features-it-includes)
 * [Basic Uses](README.md#basic-uses)
   * [New Commands](README.md#basic-commands)
+  * [New Environment](README.md#new-environment)
 
 ## Installation
 The installation is so easy, it is just like copy and pasting a file from one drive to another. 
