@@ -139,4 +139,25 @@ In this section you will get to know all the features available to use right out
    \end{qotdmathsbox}
    ```
    ![qotd-maths-box](https://i.ibb.co/K7yMmp9/qotd-maths-box.jpg)
+* Question `Enumerate` Box
+  ```tex
+  \begin{qotdques}
+      .
+      .
+      .
+  \end{qotdques}
+  ```
+  This is the environment used for writing questions. Making the content colour **Red** and make label boxed and number goes like `Q1:`.
+  
+  Output for code
+  ```tex
+  \begin{qotdques}
+      \item \lipsum[1]
+      \item \lipsum[2]
+  \end{qotdques}
+  ```
+  ![qotdenumerate](https://i.ibb.co/JrcZXBb/qotd-enumerate.jpg)
+  > Incorporating this environment with tweaked `\item` command _i.e._ `\ques{}` where, parameter is the marks given that ques. You will get Output like:
+  ![qotd-ques](https://i.ibb.co/j8yFRCS/qotd-ques.jpg)
+
 
