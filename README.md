@@ -160,4 +160,10 @@ In this section you will get to know all the features available to use right out
   > Incorporating this environment with tweaked `\item` command _i.e._ `\ques{}` where, parameter is the marks given that ques. You will get Output like:
   ![qotd-ques](https://i.ibb.co/j8yFRCS/qotd-ques.jpg)
 
+## Conclusion
+I'll be working more on this package in coming future to broaden the versatility of this package.
 
+For any further questions you can contact me on the following media:
+Gmail: pksx9120@gmail.com    
+Telegram: @piyush9120_scientist     
+Discord: Piyush Singh#4829
