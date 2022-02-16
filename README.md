@@ -164,6 +164,6 @@ In this section you will get to know all the features available to use right out
 I'll be working more on this package in coming future to broaden the versatility of this package.
 
 For any further questions you can contact me on the following media:
-* [Gmail](pksx9120@gmail.com)    
+* [Gmail](mailto:pksx9120@gmail.com?subject=[QoTD Package]%20QoTD%20Package)    
 * [Telegram](https://t.me/piyush9120_scientist)     
 * Discord: Piyush Singh#4829
