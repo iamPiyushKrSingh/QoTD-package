@@ -81,8 +81,20 @@ In this section you will get to know all the features available to use right out
 
 ### Basic Commands
 
-* QoTD number
-  ```\qotdtitle{}{}{}``` as all the parameters is explained in `features point 10.`.
+* QoTD Number
+  ```tex
+  \qotdtitle{}{}{}
+  ``` 
+  as all the parameters is explained in `features point 10.`.
   
   Output for the code `\qotdtitle{56}{7}{1}`
   ![qotdtitle](https://i.ibb.co/8DJv4Hn/qotd-title.jpg)
+* QoTD Creator
+  ```tex
+  \qotdcreator{}
+  ```
+  as use of this code is explained in `features point 11.`.
+  
+  Output for the code `\qotdcreator{JØKÊR}` 
+  ![qotdcreator](https://i.ibb.co/xzpWcpm/qotd-creator.jpg)
+  > NOTE: this command is **right justified** by `\rightline{}` command so it may require `\\` or `\newline` command before this to work perfectly.
