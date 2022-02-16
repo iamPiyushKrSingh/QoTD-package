@@ -1,0 +1,78 @@
+\ProvidesPackage{qotd}
+
+
+%%%% FOR MATHS %%%%
+\usepackage{amsmath, amssymb, amsthm, physics, mathtools}
+\everymath{\displaystyle}
+%% SOME HANDY COMMANDS %%
+\newcommand{\cbrt}[1]{\sqrt[3]{#1}}
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+\newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}
+\newcommand{\inv}{^{-1}}
+\newcommand{\dg}{^{\circ}}
+\newcommand{\naut}{_{\circ}}
+
+%%%% FOR MAKING DOCUMENT COLOR FULL %%%%
+\usepackage[dvipsnames, svgnames]{xcolor}
+
+%%%% FOR FORMATTING IMAGES %%%%
+\usepackage{graphicx, wrapfig, adjustbox, float}
+
+%%%% FOR TABLE FORMATTING %%%%
+\usepackage{array, tabularx, multirow, longtable}
+
+%%%% FOR PAGE WIDTH & BASIC DRAWING %%%%
+\usepackage[top = 5mm, bottom = 1mm]{geometry}
+\usepackage{tikz}
+
+%%%% SETTING tcolorbox %%%%
+\usepackage{tcolorbox}
+\usepackage{varwidth}
+\tcbuselibrary{skins}
+
+%%%% QOTD PHYSICS BOX COMMAND %%%%
+\newtcolorbox{qotdphybox}[2][]{enhanced,skin=enhancedlast jigsaw, attach boxed title to top left={xshift=-4mm,yshift=-0.5mm}, fonttitle=\large\bfseries\sffamily,varwidth boxed title=0.7\linewidth, colbacktitle=blue!45!white,colframe=red!50!black, interior style={top color=blue!10!white,bottom color=red!10!white}, boxed title style={empty,arc=0pt,outer arc=0pt,boxrule=0pt}, underlay boxed title={\fill[blue!45!white] (title.north west) -- (title.north east) -- +(\tcboxedtitleheight-1mm,-\tcboxedtitleheight+1mm) -- ([xshift=4mm,yshift=0.5mm]frame.north east) -- +(0mm,-1mm) -- (title.south west) -- cycle; \fill[blue!45!white!50!black] ([yshift=-0.5mm]frame.north west) -- +(-0.4,0) -- +(0,-0.3) -- cycle; \fill[blue!45!white!50!black] ([yshift=-0.5mm]frame.north east) -- +(0,-0.3) -- +(0.4,0) -- cycle; }, title={#2},#1}
+
+%%%% QOTD MATHS BOX COMMAND %%%%
+\newtcolorbox{qotdmathsbox}[2][]{colback=yellow!5!white, colframe=blue!50!black, coltitle=white, fonttitle = \sffamily\bfseries\large , halign title = center,title={#2},#1}
+
+
+%%%% MAKING QUES NO. %%%%
+\usepackage[shortlabels]{enumitem}
+%\setlist[enumerate]{label=\fbox{\emph{\textbf{Q\arabic:}}}} %% Remove % from starting if you want to sent the list edits to global.
+
+%%%% MARKING MARKS %%%%
+\newcommand{\ques}[1]{\item (#1 marks)}
+
+%%%% QUES ENVIRONMENT %%%%
+\newenvironment{qotdques}{
+    \begin{enumerate}[label=\fbox{\emph{\textbf{Q\arabic*:}}}]
+    \color{red}
+        }
+        {
+    \end{enumerate}
+}
+
+
+%%%% QoTD TITLE MAKING COMMAND EASY %%%%
+\newcommand{\qotdtitle}[3]{
+\begin{minipage}{.5\textwidth}
+\begin{center}
+\textbf{\textcolor{purple}{\Large{QoTD #1 \hspace{20pt} WEEK #2}}} 
+\newline \newline
+\textsf{\textbf{\large{CHALLENGE #3}}}
+\end{center}
+%%% DO NOT TOUCH %%%
+\end{minipage}
+\hspace{.5in}
+\begin{minipage}{.3\textwidth}
+\includegraphics[width=2.2in]{logo.jpg}
+\end{minipage}
+\\ \\}
+
+%%%% QoTD CREATOR NAME COMMAND %%%%
+\newcommand{\qotdcreator}[1]{\rightline{ \textcolor{blue}{\fbox{Creator:- #1}}}}
+
+%%%% FOR EASY TYPING MATHS %%%%
+\newcommand{\mbb}[1]{\mathbb{#1}}
+\newcommand{\mfk}[1]{\mathfrak{#1}}
