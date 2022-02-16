@@ -62,7 +62,7 @@ and after this pasting your file manager on left side should look like this
    ```
    ```tex
    \newenvironment{qotdques}{
-       \begin{enumerate}[label = \fbox{\emph{\textbf{Q\arabic:}}}
+       \begin{enumerate}[label = \fbox{\emph{\textbf{Q\arabic*:}}}]
            }
            {
        \end{enumerate}
@@ -79,4 +79,10 @@ and after this pasting your file manager on left side should look like this
 ## Basic Uses
 In this section you will get to know all the features available to use right out of the box.
 
-### 
+### Basic Commands
+
+* QoTD number
+  ```\qotdtitle{}{}{}``` as all the parameters is explained in `features point 10.`.
+  
+  Output for the code `\qotdtitle{56}{7}{1}`
+  ![qotdtitle](https://i.ibb.co/8DJv4Hn/qotd-title.jpg)
