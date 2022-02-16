@@ -5,7 +5,7 @@ This is a latex package help you creating a good looking QoTD's. For your educat
   * [Overleaf](README.md#on-overleaf)
 * [Features](README.md#features-it-includes)
 * [Basic Uses](README.md#basic-uses)
-  * [Basic Commands](README.md#basic-commands)
+  * [New Commands](README.md#basic-commands)
 
 ## Installation
 The installation is so easy, it is just like copy and pasting a file from one drive to another. 
@@ -80,7 +80,7 @@ and after this pasting your file manager on left side should look like this
 ## Basic Uses
 In this section you will get to know all the features available to use right out of the box.
 
-### Basic Commands
+### New Commands
 
 * QoTD Number
   ```tex
@@ -98,4 +98,30 @@ In this section you will get to know all the features available to use right out
   
   Output for the code `\qotdcreator{JØKÊR}` 
   ![qotdcreator](https://i.ibb.co/xzpWcpm/qotd-creator.jpg)
-  > NOTE: this command is **right justified** by `\rightline{}` command so it may require `\\` or `\newline` command before this to work perfectly.
+  > NOTE: This command is **right justified** by `\rightline{}` command so it may require `\\` or `\newline` command before this to work perfectly.
+
+### New Environment
+* QoTD Physics Box
+  ```tex
+  \begin{qotdphybox}{#Title of the box}
+      .
+      .
+      .
+   \end{qotdphybox}
+   ```
+   
+   Its use as simple as writing a text message.
+
+   Output for code 
+   ```tex
+   \begin{qotdphybox}{Testing}
+      \lipsum[1-2]    % Use \usepackage{lipsum} for this command to work
+   \end{qotdphybox}
+   ```
+   ![qotdphybox](https://i.ibb.co/549BcHS/qotd-phy-box.jpg)
+   > NOTE: The title parameter is must to avoid broken results or if you don't have any title then use it like `\begin{qotdphybox}{}`.
+
+
+
+
+
