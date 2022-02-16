@@ -5,6 +5,7 @@ This is a latex package help you creating a good looking QoTD's. For your educat
   * [Overleaf](README.md#on-overleaf)
 * [Features](README.md#features-it-includes)
 * [Basic Uses](README.md#basic-uses)
+  * [Basic Commands](README.md#basic-commands)
 
 ## Installation
 The installation is so easy, it is just like copy and pasting a file from one drive to another. 
