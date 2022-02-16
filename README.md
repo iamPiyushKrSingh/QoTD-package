@@ -115,13 +115,27 @@ In this section you will get to know all the features available to use right out
    Output for code 
    ```tex
    \begin{qotdphybox}{Testing}
-      \lipsum[1-2]    % Use \usepackage{lipsum} for this command to work
+      \lipsum[1-2]    % Use \usepackage{lipsum} in preamble.
    \end{qotdphybox}
    ```
    ![qotdphybox](https://i.ibb.co/549BcHS/qotd-phy-box.jpg)
    > NOTE: The title parameter is must to avoid broken results or if you don't have any title then use it like `\begin{qotdphybox}{}`.
-
-
-
-
+* QoTD Maths Box
+  ```tex
+  \begin{qotdmathsbox}{#Title of the box}
+      .
+      .
+      .
+   \end{qotdmathsbox}
+   ```
+   
+   Use it same as `Physics Box`.
+   
+   Output for the code
+   ```tex
+   \begin{qotdmathsbox}{} % No title box
+      \lipsum[1-2]    % Use \usepackage{lipsum} in preamble.
+   \end{qotdmathsbox}
+   ```
+   ![qotd-maths-box](https://i.ibb.co/K7yMmp9/qotd-maths-box.jpg)
 
