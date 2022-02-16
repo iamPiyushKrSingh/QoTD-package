@@ -166,4 +166,4 @@ I'll be working more on this package in coming future to broaden the versatility
 For any further questions you can contact me on the following media:
 * [Gmail](mailto:pksx9120@gmail.com?subject=QoTD%20Package%20Doubt)    
 * [Telegram](https://t.me/piyush9120_scientist)     
-* Discord: Piyush Singh#4829
+* Discord: Piyush Singh#4829 (684793561253675008)
